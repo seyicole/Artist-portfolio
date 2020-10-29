@@ -168,3 +168,26 @@ span.f-l{
   border-top: 3px solid var(--mainOrange);
 }
 
+
+/* Media query */
+
+@media only screen and (max-width: 900px){
+  nav img{
+    width: 120px;
+  }
+
+  .index-header{
+    margin-top: -4rem;
+  }
+
+  .s-i {
+    position: absolute;
+    padding-top: 10rem;
+    z-index: 1;
+  }
+
+.icons{
+  padding-top: 10rem;
+  min-height: 100vh;
+}
+}
